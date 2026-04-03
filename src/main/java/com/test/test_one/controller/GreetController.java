@@ -20,7 +20,7 @@ public class GreetController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello from Azure Sanatan";
+        return "Hello from Azure Sanatan"
     }
 
 }
