@@ -18,4 +18,9 @@ public class GreetController {
         return "Hi Tapesh from Azure";
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello from Azure Sanatan";
+    }
+
 }
