@@ -13,10 +13,6 @@ public class GreetController {
         return "Hello Tapesh from Azure";
     }
 
-    @GetMapping("/hi")
-    public String greet1(){
-        return "Hi Tapesh from Azure";
-    }
 
     @GetMapping("/hello")
     public String hello(){
